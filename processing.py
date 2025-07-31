@@ -1,5 +1,5 @@
 import pandas as pd
-from .utils import normalize_gender
+from utils import normalize_gender
 
 def process_file(uploaded_file):
     df = pd.read_excel(uploaded_file)
